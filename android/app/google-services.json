@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286371334608",
+    "project_id": "flutter-recipe-app-a120e",
+    "storage_bucket": "flutter-recipe-app-a120e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286371334608:android:a00e4afdf2304a35b451d5",
+        "android_client_info": {
+          "package_name": "com.example.recipe_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYQYPFU2U898_bxdqBQ4nMIqczNcGcJPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

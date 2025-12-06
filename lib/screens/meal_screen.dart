@@ -76,6 +76,17 @@ class MealScreenState extends State<MealScreen> {
             ),
           ),
         ),
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.favorite,
+              color: Colors.deepOrange.shade900,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, '/favorites_screen');
+            },
+          ),
+        ],
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(16)),
         ),
@@ -103,7 +114,7 @@ class MealScreenState extends State<MealScreen> {
                     child: TextField(
                       controller: _searchController,
                       decoration: InputDecoration(
-                        hintText: "Search categories...",
+                        hintText: "Search meals...",
                         prefixIcon: Icon(
                           Icons.search,
                           color: Colors.deepOrange.shade900,

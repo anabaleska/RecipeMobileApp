@@ -94,6 +94,12 @@ class MainScreenState extends State<MainScreen> {
               ),
             ),
           ),
+          IconButton(
+            icon: Icon(Icons.favorite, color: Colors.deepOrange.shade900),
+            onPressed: () {
+              Navigator.pushNamed(context, '/favorites_screen');
+            },
+          ),
         ],
       ),
 

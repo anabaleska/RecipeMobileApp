@@ -43,6 +43,8 @@ class MealDetailsState extends State<MealDetails> {
         )
             : Text(
           _mealDetail.strMeal ?? "",
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
           style: TextStyle(
             color: Colors.deepOrange.shade900,
             fontWeight: FontWeight.bold,
